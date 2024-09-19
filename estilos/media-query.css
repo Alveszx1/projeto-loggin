@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/* Paleta de Cores 
+
+#111111 Preto
+#515151 Cinza
+#F4F4F4 Branco 
+*/
+
+
+
+@media screen and (min-width:768px) and (max-width: 950px) {
+
+    body{
+        background-image: linear-gradient(to top, #111111, #515151, #F4F4F4 );
+    }
+
+    section#login {
+        width: 80vw;
+        height: 300px;
+    }
+    #imagem{
+        float: right;
+        width: 40%;
+        height: 100%;
+    }
+    #formulario{
+        float: left;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:950px) {
+
+    body{
+        background-image: linear-gradient(to top, #111111, #515151, #F4F4F4 );
+    }
+
+    section#login {
+        width: 950px;
+        height: 350px;
+    }
+
+    #imagem{
+        float: right;
+        width: 55%;
+        height: 100%;
+    }
+
+    #formulario{
+        float: left;
+        width: 45%;
+    }
+
+    #formulario > h1 {
+        font-size: 2em;
+    }
+
+    #formulario > p {
+        font-size: 1.2em;
+    }
+}
+

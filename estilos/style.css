@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+
+/* Paleta de Cores 
+
+#111111 Preto
+#515151 Cinza
+#F4F4F4 Branco 
+*/
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    background-image: linear-gradient(to top, #111111, #515151, #F4F4F4 );
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+}
+
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    width: 260px;
+    height: 510px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+    transform: translate(-50%, -50%);   
+    transition: width .3s, height .3s;
+}
+
+
+
+#imagem {
+    display: block;
+    background: black url(../imagens/71202672d21df2c2894e9d0b0d0ac661.jpg) no-repeat;
+    background-size: cover;
+    background-position: center ;
+    height: 200px;
+}
+
+#formulario{
+    display: block;
+    padding: 10px;
+}
+
+
+#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario > p {
+    font-size: 0.8em;
+    padding-bottom:5px ;
+
+}
+
+#campo {
+    background-color: #000000e3;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 9px;
+    margin: 5px 0px;
+    border: 2px solid black;
+}
+
+#campo > i {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+#campo > input {
+    font-size: 1em;
+    height: 97%;
+    width: calc(100% - 45px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-12px);
+
+}
+
+
+label {
+    display: none;
+}
+
+
+
+form > input[type=submit] {
+
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color:#000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+form > input[type=submit]:hover {
+
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    margin-top: 7px;
+    text-decoration: none;
+
+}
+
+.botao:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
