@@ -72,7 +72,7 @@ main{
     background-color: #000000e3;
     display: block;
     width: 100%;
-    height: 40px;
+    height: 39px;
     border-radius: 9px;
     margin: 5px 0px;
     border: 2px solid black;
@@ -87,7 +87,7 @@ main{
 
 #campo > input {
     font-size: 1em;
-    height: 97%;
+    height: 98%;
     width: calc(100% - 46px);
     border: 0px;
     border-radius: 8px;
