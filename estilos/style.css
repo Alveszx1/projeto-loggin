@@ -75,7 +75,7 @@ main{
     height: 39px;
     border-radius: 9px;
     margin: 5px 0px;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 #campo > i {
