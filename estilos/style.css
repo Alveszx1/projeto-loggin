@@ -88,8 +88,8 @@ main{
 #campo > input {
     font-size: 1em;
     height: 100%;
-    width: calc(100% - 49px);
-    border: 0px;
+    width: calc(100% - 50px);
+    border: 1px;
     border-radius: 8px;
     padding: 4px;
     transform: translateY(-12px);
